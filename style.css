@@ -1,0 +1,54 @@
+*{
+    margin:0px;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-image:  linear-gradient(30deg, #000000 12%, transparent 12.5%, transparent 87%, #000000 87.5%, #000000), linear-gradient(150deg, #000000 12%, transparent 12.5%, transparent 87%, #000000 87.5%, #000000), linear-gradient(30deg, #000000 12%, transparent 12.5%, transparent 87%, #000000 87.5%, #000000), linear-gradient(150deg, #000000 12%, transparent 12.5%, transparent 87%, #000000 87.5%, #000000), linear-gradient(60deg, #00000077 25%, transparent 25.5%, transparent 75%, #00000077 75%, #00000077), linear-gradient(60deg, #00000077 25%, transparent 25.5%, transparent 75%, #00000077 75%, #00000077);
+    background-size: 80px 140px;
+    background-position: 0 0, 0 0, 40px 70px, 40px 70px, 0 0, 40px 70px;
+    
+}
+.main{
+    height:50vh;
+    width:30vw;
+    /* background-color: #5a284b; */
+    background-color: #303d7f;
+    /* background-color:#236c6a; */
+    opacity: 1;
+
+    background-image:  linear-gradient(30deg, #000000 12%, transparent 12.5%, transparent 87%, #000000 87.5%, #000000), linear-gradient(150deg, #000000 12%, transparent 12.5%, transparent 87%, #000000 87.5%, #000000), linear-gradient(30deg, #000000 12%, transparent 12.5%, transparent 87%, #000000 87.5%, #000000), linear-gradient(150deg, #000000 12%, transparent 12.5%, transparent 87%, #000000 87.5%, #000000), linear-gradient(60deg, #00000077 25%, transparent 25.5%, transparent 75%, #00000077 75%, #00000077), linear-gradient(60deg, #00000077 25%, transparent 25.5%, transparent 75%, #00000077 75%, #00000077);
+    background-size: 80px 140px;
+    background-position: 0 0, 0 0, 40px 70px, 40px 70px, 0 0, 40px 70px;
+
+    border-radius: 8vh;
+    padding:20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.box2{
+    margin:auto;
+}
+.box2 button{
+    height: 2vw;
+    background-color: rgb(12 12 71);
+    color: white;
+    border-radius: 4px;
+    font-variant: small-caps;
+}
+.box3{
+    /* background-color: aquamarine; */
+    width: 100px;
+    height: 100px;
+    margin:auto;
+}
+input[type='text']{
+    background-color: #1f1f1f;
+    color:greenyellow;
+    padding: 3px;
+    width:29vw;
+    height:2vw;
+}
